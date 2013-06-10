@@ -1,0 +1,18 @@
+name: SnowballFight
+main: net.gamerzaddiction.gamermanh.SnowballFight
+version: 0.01
+authors: [gamermanh, skyrimfan1]
+commands:
+   sbf:
+      description: Shows basic plugin information
+      usage: /sbf
+      permission: sbf.info
+      permission-message: You cant do that, silly
+permissions:
+    sbf.*:
+        description: Gives access to all sbf commands
+        children:
+            sbf.info: true
+    sbf.info:
+        description: Allows you to see the help menus
+        default: op

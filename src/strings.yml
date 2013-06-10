@@ -1,0 +1,6 @@
+#This file adds custom strings to the plugin
+#Rather than force users to use our "No permissions" and death messages and the like, we can let them choose their own by putting them here!
+#I'm going to put a test one in here that responds to the /sbf test strings command
+#It should work with color and other such things
+
+Test-Message: '&cThis message is a test of the custom strings'
